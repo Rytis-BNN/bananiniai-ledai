@@ -53,3 +53,108 @@ p {
 .quote-button:hover {
     background-color: #6faf35;
 }
+.footer {
+    background-color: #151515;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.top-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.footer-nav {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.footer-nav li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.footer-nav li a:hover {
+    text-decoration: underline;
+}
+
+.social-media a {
+    margin: 0 10px;
+}
+
+.social-media img {
+    width: 24px;
+    height: 24px;
+}
+
+.subscribe-section {
+    margin-bottom: 30px;
+}
+
+.subscribe-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.subscribe-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.subscribe-form input {
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    width: 300px;
+}
+
+.subscribe-form button {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #7fc242;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.subscribe-form button:hover {
+    background-color: #6faf35;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.contact-info p {
+    margin: 0;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    font-size: 0.8rem;
+    color: #bbb;
+}

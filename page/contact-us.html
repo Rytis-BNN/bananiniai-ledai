@@ -1,12 +1,47 @@
-<h1>Contact Us</h1>
-<h1>Testimonial</h1>
-that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making
-it look like readable English. Many desktop publishing packages and web page editors nowthat it has a more-or-less
-normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable
-English. Many desktop publishing packages and web page editors nowthat it has a more-or-less normal distribution of
-letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop
-publishing packages and web page editors now
-<input type="text" class="input-field" placeholder="Name">
-<input type="email" class="input-field" placeholder="Gmail">
-<input type="tel" class="input-field" placeholder="Phone">
-<input type="text" class="input-field" placeholder="Message">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us & Testimonial</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Contact Us and Testimonial Section -->
+    <section class="contact-testimonial">
+        <div class="contact-container">
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="tel" placeholder="Phone Number" required>
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <div class="testimonial-container">
+            <h2>Testimonial</h2>
+            <div class="testimonial-content">
+                <div class="testimonial-author">
+                    <img src="user-image.jpg" alt="User Photo">
+                    <div class="author-info">
+                        <h3>Hindona</h3>
+                        <p>Businessman</p>
+                    </div>
+                </div>
+                <p class="testimonial-text">
+                    that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', 
+                    making it look like readable English. Many desktop publishing packages and web page editors now that it has a more-or-less 
+                    normal distribution of letters.
+                </p>
+                <div class="testimonial-nav">
+                    <button class="prev-btn">←</button>
+                    <button class="next-btn">→</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

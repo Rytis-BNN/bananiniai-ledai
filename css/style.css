@@ -110,6 +110,10 @@ p {
 
 .subscribe-section {
     margin-bottom: 30px;
+    color: white;
+}
+
+h3 {
     color: #c1c3c7;
 }
 
@@ -128,7 +132,6 @@ p {
     padding: 10px;
     font-size: 1rem;
     border: none;
-    border-radius: 5px 0 0 5px;
     width: 300px;
 }
 
@@ -137,8 +140,8 @@ p {
     font-size: 1rem;
     background-color: #7fc242;
     border: none;
-    border-radius: 0 5px 5px 0;
     cursor: pointer;
+    color: white;
 }
 
 .subscribe-form button:hover {
@@ -161,129 +164,11 @@ p {
 
 .footer-bottom p {
     font-size: 0.8rem;
-<<<<<<< HEAD
     color: #6a6d76;
-=======
-    color: #bbb;
-}
-
-/*Contact-us.html*/
-.contact-container {
-    width: 40%;
-    background-color: #f9f9f9;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.contact-container h2 {
-    font-size: 1.8rem;
-    margin-bottom: 20px;
-}
-
-.contact-form input, .contact-form textarea {
-    width: 100%;
-    padding: 15px;
-    margin-bottom: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    font-size: 1rem;
-}
-
-.contact-form textarea {
-    height: 150px;
-}
-
-.contact-form button {
-    width: 100%;
-    padding: 15px;
-    background-color: #7fc242;
-    color: white;
-    font-size: 1rem;
-    text-transform: uppercase;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.contact-form button:hover {
-    background-color: #6faf35;
 }
 
 .line {
     width: 100%; 
-    border-bottom: 2px solid gray; 
+    border-bottom: 1px solid #42454e; 
     margin: 20px 0; 
-}
-
-.testimonial-container {
-    width: 50%;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.testimonial-container h2 {
-    font-size: 1.8rem;
-    margin-bottom: 20px;
-}
-
-.testimonial-content {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 20px;
-}
-
-.testimonial-author {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-.testimonial-author img {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-.author-info h3 {
-    font-size: 1.2rem;
-    margin: 0;
-}
-
-.author-info p {
-    font-size: 0.9rem;
-    color: #7fc242;
-    margin: 0;
-}
-
-.testimonial-text {
-    font-size: 1rem;
-    line-height: 1.6;
-    color: #555;
-}
-
-.testimonial-nav {
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-    gap: 10px;
-}
-
-.testimonial-nav button {
-    background-color: #7fc242;
-    border: none;
-    color: white;
-    padding: 10px 15px;
-    font-size: 1rem;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-.testimonial-nav button:hover {
-    background-color: #6faf35;
->>>>>>> 5356dde62f3595a2618d19bfabcc06add08e59a6
 }

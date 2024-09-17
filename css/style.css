@@ -16,12 +16,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 55vh;
 }
 
 .content-container {
     background: rgba(0, 0, 0, 0.8);
     padding: 40px;
+    padding-top: 100px;
     text-align: center;
     color: white;
     width: 100%;
@@ -41,7 +42,10 @@ p {
 
 .quote-button {
     display: inline-block;
-    padding: 20px 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 30px;
+    padding-bottom: 20px;
     background-color: #9ccd3d;
     color: white;
     text-transform: uppercase;
@@ -54,7 +58,7 @@ p {
     background-color: #6faf35;
 }
 .footer {
-    background-color: #151515;
+    background-color: #191c25;
     color: white;
     padding: 40px 20px;
     text-align: center;
@@ -106,6 +110,7 @@ p {
 
 .subscribe-section {
     margin-bottom: 30px;
+    color: #c1c3c7;
 }
 
 .subscribe-section h3 {
@@ -156,5 +161,5 @@ p {
 
 .footer-bottom p {
     font-size: 0.8rem;
-    color: #bbb;
+    color: #6a6d76;
 }

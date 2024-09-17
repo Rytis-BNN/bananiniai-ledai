@@ -16,7 +16,6 @@ body {
     line-height: 1.6;
 }
 
-/* Header Section */
 header {
     background-color: #1a1a1a;
     color: white;
@@ -25,21 +24,18 @@ header {
     font-size: 1.5rem;
 }
 
-/* Main Title Section */
 h1 {
     font-size: 2rem;
     color: #333;
     margin-bottom: 20px;
 }
 
-/* Container */
 .container {
     width: 80%;
     margin: 0 auto;
     padding: 20px 0;
 }
 
-/* Blog Post Section */
 .blog-post {
     background-color: white;
     margin-bottom: 20px;
@@ -76,7 +72,7 @@ h1 {
 }
 
 .blog-button {
-    background-color: #4caf50;
+    background-color: #9ccd3d;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -85,48 +81,31 @@ h1 {
     transition: background-color 0.3s ease;
 }
 
-.blog-button:hover {
-    background-color: #45a049;
-}
-
-/* Buttons */
 button {
-    background-color: #4caf50;
+    background-color: #9ccd3d;
     color: white;
     border: none;
     padding: 12px 20px;
-    border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
-button:hover {
-    background-color: #45a049;
-}
 
 .gbutton {
     background-color: transparent;
     width: 30px;
     height: 30px;
-    border: 2px solid #4caf50;
+    border: 2px solid #9ccd3d;
     margin: 0 5px;
     border-radius: 50%;
     cursor: pointer;
 }
 
-.gbutton:hover {
-    background-color: #4caf50;
-    color: white;
-}
-
-/* Image Styling */
 img {
     max-width: 100%;
     height: auto;
-    border-radius: 5px;
 }
 
-/* Responsiveness */
 @media (max-width: 768px) {
     .blog-post {
         flex-direction: column;
@@ -188,7 +167,7 @@ p {
 }
 
 .quote-button:hover {
-    background-color: #6faf35;
+    background-color: #9ccd3d;
 }
 .footer {
     background-color: #191c25;
@@ -271,14 +250,14 @@ h3 {
 .subscribe-form button {
     padding: 10px;
     font-size: 1rem;
-    background-color: #7fc242;
+    background-color: #9ccd3d;
     border: none;
     cursor: pointer;
     color: white;
 }
 
 .subscribe-form button:hover {
-    background-color: #6faf35;
+    background-color: #9ccd3d;
 }
 
 .contact-info {
@@ -324,12 +303,10 @@ body {
     background-color: #fff;
 }
 
-/* Contact Us Form */
 .contact-container {
     width: 40%;
     background-color: #f9f9f9;
     padding: 20px;
-    border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -343,7 +320,6 @@ body {
     padding: 15px;
     margin-bottom: 20px;
     border: 1px solid #ddd;
-    border-radius: 5px;
     font-size: 1rem;
 }
 
@@ -354,19 +330,14 @@ body {
 .contact-form button {
     width: 100%;
     padding: 15px;
-    background-color: #7fc242;
+    background-color: #9ccd3d;
     color: white;
     font-size: 1rem;
     text-transform: uppercase;
     border: none;
-    border-radius: 5px;
+
     cursor: pointer;
 }
-
-.contact-form button:hover {
-    background-color: #6faf35;
-}
-
 
 .contact-testimonial {
     display: flex;
@@ -376,12 +347,10 @@ body {
     background-color: #fff;
 }
 
-/* Contact Us Form */
 .contact-container {
     width: 40%;
     background-color: #f9f9f9;
     padding: 20px;
-    border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -395,7 +364,6 @@ body {
     padding: 15px;
     margin-bottom: 20px;
     border: 1px solid #ddd;
-    border-radius: 5px;
     font-size: 1rem;
 }
 
@@ -404,27 +372,24 @@ body {
 }
 
 .contact-form button {
-    width: 100%;
-    padding: 15px;
-    background-color: #7fc242;
+    width: 160px;
+    height: 70px;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #9ccd3d;
     color: white;
     font-size: 1rem;
     text-transform: uppercase;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
 }
 
-.contact-form button:hover {
-    background-color: #6faf35;
-}
-
-/* Testimonial Section */
 .testimonial-container {
     width: 50%;
     background-color: #fff;
     padding: 20px;
-    border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -449,7 +414,6 @@ body {
 .testimonial-author img {
     width: 80px;
     height: 80px;
-    border-radius: 50%;
     object-fit: cover;
 }
 
@@ -460,7 +424,7 @@ body {
 
 .author-info p {
     font-size: 0.9rem;
-    color: #7fc242;
+    color: #9ccd3d;
     margin: 0;
 }
 
@@ -477,16 +441,15 @@ body {
     gap: 10px;
 }
 
+.dora {
+    color: black;
+}
+
 .testimonial-nav button {
-    background-color: #7fc242;
+    background-color: #9ccd3d;
     border: none;
     color: white;
     padding: 10px 15px;
     font-size: 1rem;
     cursor: pointer;
-    border-radius: 5px;
-}
-
-.testimonial-nav button:hover {
-    background-color: #6faf35;
 }

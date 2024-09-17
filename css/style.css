@@ -10,7 +10,7 @@ body {
 }
 
 .about-us {
-    background-image: url('../img/ofisytis.png'); /* You can add the background image here */
+    background-image: url('../img/ofisytis.png');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -20,7 +20,7 @@ body {
 }
 
 .content-container {
-    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    background: rgba(0, 0, 0, 0.8);
     padding: 40px;
     text-align: center;
     color: white;
@@ -41,8 +41,8 @@ p {
 
 .quote-button {
     display: inline-block;
-    padding: 15px 30px;
-    background-color: #7fc242;
+    padding: 20px 80px;
+    background-color: #9ccd3d;
     color: white;
     text-transform: uppercase;
     text-decoration: none;

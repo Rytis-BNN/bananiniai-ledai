@@ -564,9 +564,9 @@ body {
     cursor: pointer;
 }
 
-.container-login {
-    width: 100%;
-    height: 100%;
+.container_login {
+    width: 100vw;
+    height: 100vh;
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/Login.png');
     background-size: cover;
     background-position: center;
@@ -598,7 +598,7 @@ body {
     color: #fff;
     text-align: center;
     margin: 20px auto;
-    border: 2px solid #420dd3;
+    border: 2px solid #9ccd3d;
     padding: 15px 20px;
     border-radius: 25px;
 }
@@ -611,13 +611,13 @@ body {
     color: #fff;
     text-align: center;
     margin: 20px auto;
-    border: 2px solid #420dd3;
+    border: 2px solid #9ccd3d;
     padding: 15px 40px;
     border-radius: 25px;
 }
 
 .login input[type = "submit"]:hover {
-    background-color: #420dd3;
+    background-color: #9ccd3d;
     cursor: pointer;
     border: 2px solid #fff;
 } 
